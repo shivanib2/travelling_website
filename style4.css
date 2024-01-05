@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+:root {
+    --primary-color: #113946;
+    --primary-color-light: #451952;
+    --secondary-color: #FFF2D8;
+    --extra-light: rgb(255, 255, 255);
+    --white: #F5F5F5;
+    --max-width: 1200px;
+    --header-font: "Lisu Bosa ", serif;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .main_heading{
+    background-color: #2a2b2b;
+    height: 100px;
+  }
+  .main_heading .custom
+  {
+    text-align: right;
+    padding: 20px;
+    width: auto;
+    height: auto;
+  }

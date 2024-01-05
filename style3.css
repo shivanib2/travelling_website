@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+:root {
+    --primary-color: #113946;
+    
+    --secondary-color: #ffffff;
+    --extra-light: rgb(255, 255, 255);
+    --white: #F5F5F5;
+    --max-width: 1200px;
+    --header-font: "Lisu Bosa ", serif;
+  }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.main_heading{
+  background-color: #113946 ;
+
+ border-bottom: 1px solid white;
+    border-width: 4px;
+    height: 70px;
+   
+   
+  }
+  
+ 
+  
+h3
+{
+  
+    font-size:xx-large;
+    color: var(--secondary-color);
+}
+h2
+{
+  
+    text-align: left;
+    padding: 20px;
+    font-size: 35px;
+    font-weight: 700;
+    color:rgb(230, 230, 230);
+    font-style: italic;
+
+}
+.image
+{   
+    width: 100%;
+  display: flex;
+}
+header 
+{
+    background-color: #1d4957;
+    background-position: center center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+h6
+{
+  padding: 7px;
+  font-size:small;
+  font-weight: 50;
+  text-align: right;
+  font-style: italic;
+  
+}
+html,
+body {
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    color: var(--white);
+  }
+.section
+{
+ border: 5px solid transparent;
+  max-width: 100px;
+  width: 100%;
+
+}
+.plans
+{
+    outline: transparent;
+    padding: 10px;
+    padding-left: 30px;
+    cursor: pointer;
+    align-items: center;
+    color: rgb(235, 226, 226);
+    font-style: italic;
+    
+ }
+
+.plans .sep
+{
+    
+    padding: 30px;
+    margin-top: 40px;
+}
+.plans .sep .pay
+  {  position:relative; left: 80%; top:2px;
+    text-align: right;
+    padding : 20px;
+    padding-top: 5px;
+    padding-right: 30px;
+    border: 4px solid;
+    border-color: #fdfafa;
+    border-radius: 100px ;
+    color: #F0F0F0;
+    width: 20%;
+    height: 100px;
+    font-style: italic;
+
+  }
